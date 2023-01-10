@@ -1,0 +1,3 @@
+(async (currentScript) => {
+
+})(document.currentScript);

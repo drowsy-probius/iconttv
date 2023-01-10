@@ -5,6 +5,7 @@
   "main": "iconttv.js",
   "scripts": {
     "start:firefox": "web-ext run --source-dir ./extension-dist/",
+    "eslint": "eslint src/**/*.{js,jsx}",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -22,7 +23,12 @@
   },
   "homepage": "https://github.com/drowsy-probius/iconttv#readme",
   "devDependencies": {
+    "@babel/core": "^7.20.12",
+    "@babel/eslint-parser": "^7.19.1",
+    "@babel/preset-env": "^7.20.2",
     "eslint": "^8.31.0",
+    "eslint-config-prettier": "^8.6.0",
+    "eslint-plugin-prettier": "^4.2.1",
     "prettier": "^2.8.2",
     "web-ext": "^7.4.0",
     "webextension-polyfill": "^0.10.0"
